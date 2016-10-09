@@ -16,5 +16,3 @@ LOCAL_SRC_FILES := processor.cpp
 LOCAL_SRC_FILES += ocl_videoproc.cpp
 LOCAL_SHARED_LIBRARIES += libcutils libOpenCL
 include $(BUILD_SHARED_LIBRARY)
-#include $(BUILD_EXECUTABLE)
-

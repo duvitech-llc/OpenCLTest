@@ -66,7 +66,7 @@ void cb(cl_program p,void* data)
 	LOGE("Build log \n %s\n",bug);
 }
 
-JNIEXPORT jboolean JNICALL Java_com_example_LiveFeatureActivity_compileKernels(JNIEnv *env, jclass clazz)
+JNIEXPORT jboolean JNICALL Java_com_duvitech_opencltest_LiveFeatureActivity_compileKernels(JNIEnv *env, jclass clazz)
 {
 	// Find OCL devices and compile kernels
 	cl_int err = CL_SUCCESS;
@@ -134,7 +134,7 @@ void helper(uint32_t* out, int osize, uint8_t* in, int isize, int w, int h, int 
 	}
 }
 
-JNIEXPORT void JNICALL Java_com_example_CameraPreview_runfilter(
+JNIEXPORT void JNICALL Java_com_duvitech_opencltest_CameraPreview_runfilter(
 		JNIEnv *env,
 		jclass clazz,
 		jobject outBmp,
