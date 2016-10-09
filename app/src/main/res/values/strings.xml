@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">OpenCLTest</string>
+    <string name="title_activity_live_feature">LiveFeatureActivity</string>
+    <string name="iDesc">NV21 Decoding</string>
+    <string name="eDesc">Decoding+Laplacian</string>
+</resources>
